@@ -1,0 +1,72 @@
+/* ---------------------------
+colour, font and variable setup 
+------------------------------*/
+
+
+
+:root {
+  --font-base: "poppins", sans-serif;
+  --c-primary: #975af9;
+  --c-secondry: #46a7f8;
+  --c-background: #e6e6e6;
+  --c-dark: #2d2d2d;
+  --c-black: #000000;
+  --font-base: "poppins", sans-serif;
+  /* creating variables for the main colors of the website */
+}
+
+body {
+  font-family: var(--font-base);
+  /* added poppins for the css file because in default poppins font is not availabe in bootstrap. in here we called font-base variable to do that */
+  font-size: 16px;
+  line-height: 600;
+}
+
+.h1 .h2 .h3 .h4 .h5 .h6 {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-primary);
+  /* we add link colours mostly by looking at the brand colors of our web page */
+}
+
+a:hover {
+  text-decoration: var(--c-secondry);
+}
+
+.section-padding {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------------------------
+Button css setup 
+------------------------------*/
+
+
+/* ---------------------------
+navbar setup 
+------------------------------*/
+.navbar {
+  font-family: var(--font-base);
+  /* calling --font-base variable */
+  font-size: 16px;
+  font-weight: 500;
+
+}
+
+.navbar-dark {
+  background-color: var(--c-black);
+}
+
+
+/* ---------------------------
+hero css setup 
+------------------------------*/
