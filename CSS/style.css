@@ -97,3 +97,35 @@ hero css setup
   font-weight: 700;
 
 }
+
+
+/* ---------------------------
+About Us css setup 
+------------------------------*/
+
+.brand-title {
+  font-size: 65px !important;
+  font-weight: 750 !important;
+  font-family: var(--font-base);
+}
+
+.brand-p {
+  font-size: 25px !important;
+  font-weight: 500 !important;
+  font-family: var(--font-base);
+}
+
+/* ---------------------------
+Iconbox css setup 
+------------------------------*/
+
+.iconbox {
+  background: var(--c-background);
+  color: var(--c-primary);
+  width: 65px;
+  height: 65px;
+  align-items: center;
+  font-size: 45px;
+
+
+}
