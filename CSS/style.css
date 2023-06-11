@@ -115,6 +115,13 @@ About Us css setup
   font-family: var(--font-base);
 }
 
+.brand-title-light {
+  font-size: 55px;
+  font-weight: 650;
+  font-family: var(--font-base);
+  color: var(--c-background);
+}
+
 /* ---------------------------
 Iconbox css setup 
 ------------------------------*/
