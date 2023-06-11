@@ -53,8 +53,16 @@ Button css setup
   font-weight: 600 !important;
 }
 
-.btn.primary {
+.btn-primary {
   background-color: var(--c-primary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--c-secondry) !important;
+}
+
+.btn-light {
+  background-color: var(--c-background);
 }
 
 /* ---------------------------
@@ -78,15 +86,14 @@ hero css setup
 ------------------------------*/
 
 #Hero {
-  background: url(../img/home/Hero-img.jpg);
+  background: url(../img/home/Homesection.webp);
   background-position: top;
 
-
 }
+
 
 .herotext {
   font-size: 135px;
   font-weight: 700;
-
 
 }
